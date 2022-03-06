@@ -707,6 +707,79 @@ align-items: center;
 
 
 
+/* start component */
+.heading {
+    color: #dee3e4;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.line {
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -60px;
+    transition: .2s all;
+}
+.main-title:hover .line {
+    width: 50px;
+}
+.main-title p {
+    color: var(--firstColor);
+    font-size: 18px;
+}
+.above-heading {
+    text-align: center;
+    position: relative;
+    top: -76px;
+    color: #212529;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+} 
+
+
+
+/* end component */
+
+/* satrt about section */
+#about {
+    padding-top: var(--mainPadding);
+    padding-bottom: var(--mainPadding);
+}
+
+
+.progress {
+    
+    height: 0.25rem;
+}
+.progress-bar {
+    background-color: var(--secondColor);
+}
+#about .row .about-content{
+    color: var(--fourthColor);
+}
+/* responsive */
+@media(max-width:760px) {
+#about .container .row .about-content {
+    margin-bottom: 50px;
+    
+}
+
+.about-title p {
+    width: 90% !important;
+}
+}
+
+/* end about section */
+
+
 
 
 
